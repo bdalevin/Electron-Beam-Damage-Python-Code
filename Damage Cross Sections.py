@@ -293,15 +293,15 @@ def callback2():
     Window.destroy() #Closes window
 
 # Now define the button. Set to execute the command defined above
-B1 = tkinter.Button(Window, text="Vacancy Enhanced Displacement (McKinley-Feshbach)", width=30, command=callback1)
+B1 = tkinter.Button(Window, text="Vacancy Enhanced Displacement (McKinley-Feshbach)", width=50, command=callback1)
 B1.pack() 
 Sp8 = tkinter.Label(Window,text=" ", bg="black")
 Sp8.pack()
-B2 = tkinter.Button(Window, text="Surface Sputtering (McKinley-Feshbach)", width=20, command=callback1)
+B2 = tkinter.Button(Window, text="Surface Sputtering (McKinley-Feshbach)", width=40, command=callback1)
 B2.pack() 
 Sp9 = tkinter.Label(Window,text=" ", bg="black")
 Sp9.pack()
-B3 = tkinter.Button(Window, text="Bulk Displacement (Kinchin Pease)", width=20, command=callback2)
+B3 = tkinter.Button(Window, text="Bulk Displacement (Kinchin Pease)", width=40, command=callback2)
 B3.pack() 
 Sp9 = tkinter.Label(Window,text=" ", bg="black")
 Sp9.pack()
